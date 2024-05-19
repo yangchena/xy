@@ -1,0 +1,6 @@
+@import './reset.scss';
+.linear {
+  background-image: linear-gradient(#ffffff, #ffd80c);
+  -webkit-background-clip: text;
+  color: transparent;
+}

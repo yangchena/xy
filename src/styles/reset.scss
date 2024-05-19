@@ -1,0 +1,10 @@
+body,
+html {
+  margin: 0;
+  --screen-box-background: rgb(16, 23, 35);
+}
+
+// 缩放组件样式
+.v-screen-box {
+  background-color: var(--screen-box-background) !important;
+}
