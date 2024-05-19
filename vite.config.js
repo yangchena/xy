@@ -14,6 +14,7 @@ export default defineConfig(({ mode }) => {
         '@': fileURLToPath(new URL('./src', import.meta.url)),
       },
     },
+    base: '/xy/',
     server: {
       // host: '192.168.60.24',
       port: 9000, // 设置服务启动端口号
